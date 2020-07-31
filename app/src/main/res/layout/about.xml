@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_covid_19_poster_with_virus_icon_1142_7401"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_knight_logo_design_vector_illustration_template_93835_237"
+                android:layout_weight="1">
+
+            </ImageView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Hi, @Ragingvenomicity here...reach me at a.ganguly1998@gmail.com"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-black"
+                android:layout_weight="1">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
